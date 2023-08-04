@@ -1,0 +1,38 @@
+{
+    "config": {
+        "abort": {
+            "invalid_webhook_url": "Home Assistant nie je správne nakonfigurovaný na prijímanie aktualizácií zo SmartThings. Webová adresa webhooku je neplatná:\n> {webhook_url}\n\nAktualizujte svoju konfiguráciu podľa [instructions]({component_url}), reštartujte Home Assistant a skúste to znova.",
+            "no_available_locations": "V aplikácii Home Assistant nie sú k dispozícii žiadne polohy SmartThings na nastavenie."
+        },
+        "error": {
+            "app_setup_error": "Nie je možné nastaviť aplikáciu SmartApp. Prosím skúste znova.",
+            "token_forbidden": "Token nemá požadované rozsahy OAuth.",
+            "token_invalid_format": "Token musí byť vo formáte UID/GUID",
+            "token_unauthorized": "Token je neplatný alebo už nie je autorizovaný.",
+            "webhook_error": "SmartThings nedokázal overiť webovú adresu webhooku. Uistite sa, že adresa URL webhooku je dostupná z internetu a skúste to znova."
+        },
+        "step": {
+            "authorize": {
+                "title": "Autorizovať domáceho asistenta"
+            },
+            "pat": {
+                "data": {
+                    "access_token": "Prístupový token"
+                },
+                "description": "Zadajte SmartThings [Personal Access Token]({token_url}) ktorý bol vytvorený podľa [instructions]({component_url}).  Toto sa použije na vytvorenie integrácie Home Assistant vo vašom účte SmartThings.",
+                "title": "Zadajte osobný prístupový token"
+            },
+            "select_location": {
+                "data": {
+                    "location_id": "Poloha"
+                },
+                "description": "Vyberte umiestnenie SmartThings, ktoré chcete pridať do aplikácie Home Assistant. Následne otvoríme nové okno a požiadame vás o prihlásenie a autorizáciu inštalácie integrácie Home Assistant do zvoleného miesta.",
+                "title": "Vyberte umiestnenie"
+            },
+            "user": {
+                "description": "SmartThings bude nakonfigurovaný na odosielanie aktualizácií push do domáceho asistenta na adrese:\n> {webhook_url}\n\nAk to nie je správne, aktualizujte svoju konfiguráciu, reštartujte Home Assistant a skúste to znova.",
+                "title": "Potvrďte URL spätného volania"
+            }
+        }
+    }
+}
