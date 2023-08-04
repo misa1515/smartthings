@@ -13,18 +13,18 @@
         },
         "step": {
             "authorize": {
-                "title": "Autorizovať domáceho asistenta"
+                "title": "Autorizovať Home Assistant"
             },
             "pat": {
                 "data": {
                     "access_token": "Prístupový token"
                 },
-                "description": "Zadajte SmartThings [Personal Access Token]({token_url}) ktorý bol vytvorený podľa [instructions]({component_url}).  Toto sa použije na vytvorenie integrácie Home Assistant vo vašom účte SmartThings.",
+                "description": "Zadajte SmartThings [Personal Access Token]({token_url}) ktorý bol vytvorený podľa [instructions]({component_url}). Toto sa použije na vytvorenie integrácie Home Assistant vo vašom účte SmartThings.",
                 "title": "Zadajte osobný prístupový token"
             },
             "select_location": {
                 "data": {
-                    "location_id": "Poloha"
+                    "location_id": "Umiestnenie"
                 },
                 "description": "Vyberte umiestnenie SmartThings, ktoré chcete pridať do aplikácie Home Assistant. Následne otvoríme nové okno a požiadame vás o prihlásenie a autorizáciu inštalácie integrácie Home Assistant do zvoleného miesta.",
                 "title": "Vyberte umiestnenie"
