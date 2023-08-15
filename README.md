@@ -2,6 +2,12 @@
 # SmartThings Custom
 A fork of the Home Assistant SmartThings Integration. This adds better support for Samsung OCF Devices.
 
+This current integration is not being updated, only fixed if HA update breaks it!
+
+Due to the immense interest to this integration I would like to build a new one that runs alongside the official Smartthings integration. This current integration is not maintainable since it was only meant for minor tweaks for myself adding missing functionality which the basic Smartthings API does not provide.
+I have no need for this new integration myself so I would be asking money for it and would be releasing it closed source until I have gathered 2000€ from the integration. After that I would be releasing it as open source.
+
+If you are interested, please vote in discussions
 
 ## Fixed features:
   - AC Humidity (now shows as sensor and also in climate entity)
@@ -49,8 +55,4 @@ A fork of the Home Assistant SmartThings Integration. This adds better support f
 - Enjoy!
 
 ## Notes:
-- If you have an extra switch called Light (you don't have a display in your AC), please give me your model number in issues so I can exclude it from the integration for your model
-- If you are missing the sound switch, Cooktop Center Warmer or Cooktop Burner Sensors from your oven, please open an issue and give me your device Model number shown in HA 
-- On some AC models not all features function properly before you cycle the power on them after adding them to HA
-- I added all functions that were supported in my AC. If you want a feature that is missing, be welcome to open an issue and we'll find a solution together.
 - If you like the integration please star this repository and concider donating or becoming a sponsor.
